@@ -1,0 +1,108 @@
+body{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* INICIO ESTILOS HEADER*/
+.Header1{
+  background-color: #366251;
+    padding: 5px 5px 0px 5px;
+    height: 100px;
+    padding-top: 25px;
+
+}
+
+.formData{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.line {
+  border-top: 1px solid #1e272e;
+}
+
+.logobnn{
+  float: left;
+  width: 600px;
+
+}
+
+.HeaderBotones{
+  float: right;
+
+}
+
+.btnLog{
+  float: right;
+  width: 200px;
+}
+
+.btnLog button{
+  background-color: #b2bec3;
+  border: 1px solid #b2bec3;
+
+}
+
+.btnLog button:hover{
+  background-color: #1e272e;
+  border: 1px solid #1e272e;
+}
+
+/* INICIO ESTILOS INFORMACION*/
+
+.HeaderPresentacion{
+  text-align: center;
+}
+
+.HeaderPresentacionFont{
+  font-size: 60px;
+}
+
+
+.Presentacion h1{
+  color: #fff;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+  }
+
+  .HeaderNav{
+  background-color: #1e272e;
+  height: 40px;
+  text-align: center;
+}
+
+h2 {
+    font-size: 1.80em;
+    color: #C6BEB0;
+  }
+
+
+  /* INICIO ESTILOS formulario*/
+  form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+
+  .inputTexto {
+    border: none;
+    border-bottom: 2px solid green;
+}
+
+label{
+
+
+}

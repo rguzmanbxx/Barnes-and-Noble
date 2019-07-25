@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="css/reset.css">
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="css/general.css">
+
+  <title>Registro - Libreria</title>
+</head>
+
+<body>
+  <div class="row Header1">
+    <div class="col-sm-6">
+      <img src="img/bnlogo2.png" alt="">
+    </div>
+    <div class="col-sm-6">
+      <div class="col-sm-6 btnLog">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Iniciar Sesión</button>
+      </div>
+      <div class="col-sm-6 btnLog">
+        <button type="button" class="btn btn-primary btn-lg btn-block">Registrarse</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Form -->
+  <div class="row formData">
+    <div class="col-sm-12 HeaderPresentacion">
+      <span class="HeaderPresentacionFont">Registro de Libreria</span>
+    </div>
+
+    <!-- Segmentador de linea -->
+    <div class="col-sm-12 line"></div>
+    <br />
+
+    <div class="col-sm-12">
+      <h2>Datos de la tienda</h2>
+    </div>
+
+    <form action="/my-handling-form-page" method="post">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <b><label>Nombre comercial :</label></b>
+            <input class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <b><label>Nombre de fantasía :</label></b>
+            <input class="form-control" type="text">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <b><label>Correo electrónico:</label></b>
+            <input class="form-control" type="text">
+          </div>
+        </div>
+      </div>  
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Dirección</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <b><label>Provincia:</label></b>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option value="">San José</option>
+              <option value="">Alajuela</option>
+              <option value="">Cartago</option>
+              <option value="">Heredia</option>
+              <option value="">Guanacaste</option>
+              <option value="">Puntarenas</option>
+              <option value="">Limón</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <b><label>Cantón :</label></b>
+            <input class="form-control" type="text">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <b><label>Distrito :</label></b>
+            <input class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <b><label>Otras señas :</label></b>
+            <textarea class="form-control" rows="1"></textarea>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Datos del administrador</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <b><label>Primer Nombre :</label></b>
+            <input class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <b><label>Segundo Nombre :</label></b>
+            <input class="form-control" type="text">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <b><label>Primer Apellido :</label></b>
+              <input class="form-control" type="text">
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <b><label>Segundo Apellido :</label></b>
+              <input class="form-control" type="text">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <b><label>Tipo de identificación:</label></b>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option value="">Cédula de Identidad</option>
+                  <option value="">Cédula de Residencia</option>
+                  <option value="">Pasaporte</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <b><label>Número de identificación:</label></b>
+                <input class="form-control" type="number">
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <b><label>Fecha de nacimiento:</label></b>
+                  <input class="form-control" type="date">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <b><label>Edad:</label></b>
+                  <input class="form-control" type="number">
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <b><label>Sexo:</label></b>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option value="">Masculino</option>
+                      <option value="">Femenino</option>
+                      <option value="">Prefiero no decir</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                      <b>¿Desea agregar otra tienda?</b>
+                      <br>
+                      <input type="checkbox" name="" value=""> Si
+                      <br>
+                      <input type="checkbox" name="" value="">  No
+                      <br><br>
+                  </div>
+                </div>
+              </div>
+
+
+
+            <div class="col-sm-6 btnLog">
+                <button type="submit" class="btn btn-primary btn-lg btn-block" >Completar Registro</button>
+              </div>
+  </div>
+</body>
